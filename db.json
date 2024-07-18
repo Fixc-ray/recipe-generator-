@@ -1,0 +1,171 @@
+{
+    "meals": [
+      {
+        "id": "1",
+        "name": "Sushi",
+        "picture":"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VzaGl8ZW58MHx8MHx8fDA%3D",
+        "ingredients": ["rice", "vinegar", "sugar", "salt", "nori", "fish"],
+        "instructions": "Cook rice. Mix vinegar, sugar, and salt. Spread rice on nori. Add fish. Roll and slice.",
+        "cuisine": "Japanese"
+      },
+      {
+        "id": "2",
+        "name": "Pizza Margherita",
+        "picture": "https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emElMjBtYXJnaGVyaXRhfGVufDB8fDB8fHww",
+        "ingredients": [
+          "pizza dough",
+          "tomato sauce",
+          "mozzarella cheese",
+          "basil",
+          "olive oil"
+        ],
+        "instructions": "Spread tomato sauce on dough. Add cheese. Bake. Garnish with basil and drizzle with olive oil.",
+        "cuisine": "Italian"
+      },
+      {
+        "id": "3",
+        "name": "Tacos",
+        "ingredients": ["tortillas", "beef", "onions", "cilantro", "lime"],
+        "instructions": "Cook beef. Warm tortillas. Add beef, onions, cilantro. Serve with lime.",
+        "cuisine": "Mexican"
+      },
+      {
+        "id": "4",
+        "name": "Peking Duck",
+        "ingredients": [
+          "duck",
+          "hoisin sauce",
+          "scallions",
+          "cucumbers",
+          "pancakes"
+        ],
+        "instructions": "Roast duck. Serve with hoisin sauce, scallions, cucumbers, and pancakes.",
+        "cuisine": "Chinese"
+      },
+      {
+        "id": "5",
+        "name": "Pasta Carbonara",
+        "ingredients": [
+          "spaghetti",
+          "eggs",
+          "parmesan cheese",
+          "pancetta",
+          "black pepper"
+        ],
+        "instructions": "Boil spaghetti. Cook pancetta. Mix eggs and cheese. Combine all.",
+        "cuisine": "Italian"
+      },
+      {
+        "id": "6",
+        "name": "Pad Thai",
+        "ingredients": [
+          "rice noodles",
+          "shrimp",
+          "tofu",
+          "eggs",
+          "bean sprouts",
+          "peanuts",
+          "lime"
+        ],
+        "instructions": "Cook noodles. Stir-fry shrimp, tofu, and eggs. Add noodles and sauce. Garnish with peanuts and lime.",
+        "cuisine": "Thai"
+      },
+      {
+        "id": "7",
+        "name": "Paella",
+        "ingredients": [
+          "rice",
+          "saffron",
+          "chicken",
+          "seafood",
+          "peas",
+          "bell peppers"
+        ],
+        "instructions": "Cook chicken. Add rice and saffron. Add seafood, peas, and bell peppers. Simmer until done.",
+        "cuisine": "Spanish"
+      },
+      {
+        "id": "8",
+        "name": "Burger",
+        "ingredients": [
+          "ground beef",
+          "buns",
+          "cheese",
+          "lettuce",
+          "tomato",
+          "onions",
+          "pickles"
+        ],
+        "instructions": "Form beef into patties. Grill. Serve on buns with cheese, lettuce, tomato, onions, and pickles.",
+        "cuisine": "American"
+      },
+      {
+        "id": "9",
+        "name": "Biryani",
+        "ingredients": [
+          "rice",
+          "chicken",
+          "yogurt",
+          "onions",
+          "spices",
+          "saffron"
+        ],
+        "instructions": "Marinate chicken in yogurt and spices. Cook rice with saffron. Layer chicken and rice. Cook until done.",
+        "cuisine": "Indian"
+      },
+      {
+        "id": "10",
+        "name": "Croissant",
+        "ingredients": ["flour", "butter", "sugar", "milk", "yeast"],
+        "instructions": "Make dough. Fold with butter multiple times. Shape and bake.",
+        "cuisine": "French"
+      },
+      {
+        "id": "11",
+        "name": "Pho",
+        "ingredients": [
+          "rice noodles",
+          "beef",
+          "broth",
+          "bean sprouts",
+          "basil",
+          "lime"
+        ],
+        "instructions": "Cook noodles. Prepare broth. Add beef and noodles to broth. Serve with bean sprouts, basil, and lime.",
+        "cuisine": "Vietnamese"
+      },
+      {
+        "id": "12",
+        "name": "Samosas",
+        "ingredients": ["flour", "water", "meat", "onions", "spices"],
+        "instructions": "Make dough from flour and water. Fill with cooked meat, onions, and spices. Fry until golden brown.",
+        "cuisine": "Kenyan",
+        "image": "https://example.com/images/samosas.jpg"
+      },
+      {
+        "id": "13",
+        "name": "Bhajias",
+        "ingredients": ["potatoes", "chickpea flour", "spices", "water", "oil"],
+        "instructions": "Slice potatoes. Coat in spiced chickpea flour batter. Fry until crispy.",
+        "cuisine": "Kenyan",
+        "image": "https://example.com/images/bhajias.jpg"
+      },
+      {
+        "id": "14",
+        "name": "Mandazi",
+        "ingredients": ["flour", "sugar", "coconut milk", "yeast", "oil"],
+        "instructions": "Make dough from flour, sugar, coconut milk, and yeast. Fry until golden brown.",
+        "cuisine": "Kenyan",
+        "image": "https://example.com/images/mandazi.jpg"
+      },
+      {
+        "id": "15",
+        "name": "Chips Masala",
+        "ingredients": ["french fries", "tomato sauce", "onions", "cilantro", "spices"],
+        "instructions": "Cook french fries. Toss with tomato sauce, onions, cilantro, and spices.",
+        "cuisine": "Kenyan",
+        "image": "https://example.com/images/chips_masala.jpg"
+      }
+    ]
+  }
+  
