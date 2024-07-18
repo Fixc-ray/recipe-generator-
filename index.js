@@ -1,4 +1,4 @@
-const food = "http://localhost:3000/meals";
+const food = "https://recipe-finder-zeta-sooty.vercel.app/meals";
 
 fetch(food)
   .then((res) => res.json())
