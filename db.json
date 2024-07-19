@@ -1,379 +1,424 @@
 {
-    "meals": [
-      {
-        "id": "1",
-        "name": "Sushi",
-        "picture":"https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VzaGl8ZW58MHx8MHx8fDA%3D",
-        "ingredients": ["rice", "vinegar", "sugar", "salt", "nori", "fish"],
-        "instructions": "Cook rice. Mix vinegar, sugar, and salt. Spread rice on nori. Add fish. Roll and slice.",
-        "cuisine": "Japanese"
-      },
-      {
-        "id": "2",
-        "name": "Pizza Margherita",
-        "picture": "https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emElMjBtYXJnaGVyaXRhfGVufDB8fDB8fHww",
-        "ingredients": [
-          "pizza dough",
-          "tomato sauce",
-          "mozzarella cheese",
-          "basil",
-          "olive oil"
-        ],
-        "instructions": "Spread tomato sauce on dough. Add cheese. Bake. Garnish with basil and drizzle with olive oil.",
-        "cuisine": "Italian"
-      },
-      {
-        "id": "3",
-        "name": "Tacos",
-        "ingredients": ["tortillas", "beef", "onions", "cilantro", "lime"],
-        "instructions": "Cook beef. Warm tortillas. Add beef, onions, cilantro. Serve with lime.",
-        "cuisine": "Mexican"
-      },
-      {
-        "id": "4",
-        "name": "Peking Duck",
-        "ingredients": [
-          "duck",
-          "hoisin sauce",
-          "scallions",
-          "cucumbers",
-          "pancakes"
-        ],
-        "instructions": "Roast duck. Serve with hoisin sauce, scallions, cucumbers, and pancakes.",
-        "cuisine": "Chinese"
-      },
-      {
-        "id": "5",
-        "name": "Pasta Carbonara",
-        "ingredients": [
-          "spaghetti",
-          "eggs",
-          "parmesan cheese",
-          "pancetta",
-          "black pepper"
-        ],
-        "instructions": "Boil spaghetti. Cook pancetta. Mix eggs and cheese. Combine all.",
-        "cuisine": "Italian"
-      },
-      {
-        "id": "6",
-        "name": "Pad Thai",
-        "ingredients": [
-          "rice noodles",
-          "shrimp",
-          "tofu",
-          "eggs",
-          "bean sprouts",
-          "peanuts",
-          "lime"
-        ],
-        "instructions": "Cook noodles. Stir-fry shrimp, tofu, and eggs. Add noodles and sauce. Garnish with peanuts and lime.",
-        "cuisine": "Thai"
-      },
-      {
-        "id": "7",
-        "name": "Paella",
-        "ingredients": [
-          "rice",
-          "saffron",
-          "chicken",
-          "seafood",
-          "peas",
-          "bell peppers"
-        ],
-        "instructions": "Cook chicken. Add rice and saffron. Add seafood, peas, and bell peppers. Simmer until done.",
-        "cuisine": "Spanish"
-      },
-      {
-        "id": "8",
-        "name": "Burger",
-        "ingredients": [
-          "ground beef",
-          "buns",
-          "cheese",
-          "lettuce",
-          "tomato",
-          "onions",
-          "pickles"
-        ],
-        "instructions": "Form beef into patties. Grill. Serve on buns with cheese, lettuce, tomato, onions, and pickles.",
-        "cuisine": "American"
-      },
-      {
-        "id": "9",
-        "name": "Biryani",
-        "ingredients": [
-          "rice",
-          "chicken",
-          "yogurt",
-          "onions",
-          "spices",
-          "saffron"
-        ],
-        "instructions": "Marinate chicken in yogurt and spices. Cook rice with saffron. Layer chicken and rice. Cook until done.",
-        "cuisine": "Indian"
-      },
-      {
-        "id": "10",
-        "name": "Croissant",
-        "ingredients": ["flour", "butter", "sugar", "milk", "yeast"],
-        "instructions": "Make dough. Fold with butter multiple times. Shape and bake.",
-        "cuisine": "French"
-      },
-      {
-        "id": "11",
-        "name": "Pho",
-        "ingredients": [
-          "rice noodles",
-          "beef",
-          "broth",
-          "bean sprouts",
-          "basil",
-          "lime"
-        ],
-        "instructions": "Cook noodles. Prepare broth. Add beef and noodles to broth. Serve with bean sprouts, basil, and lime.",
-        "cuisine": "Vietnamese"
-      },
-      {
-        "id": "12",
-        "name": "Samosas",
-        "ingredients": ["flour", "water", "meat", "onions", "spices"],
-        "instructions": "Make dough from flour and water. Fill with cooked meat, onions, and spices. Fry until golden brown.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/samosas.jpg"
-      },
-      {
-        "id": "13",
-        "name": "Bhajias",
-        "ingredients": ["potatoes", "chickpea flour", "spices", "water", "oil"],
-        "instructions": "Slice potatoes. Coat in spiced chickpea flour batter. Fry until crispy.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/bhajias.jpg"
-      },
-      {
-        "id": "14",
-        "name": "Mandazi",
-        "ingredients": ["flour", "sugar", "coconut milk", "yeast", "oil"],
-        "instructions": "Make dough from flour, sugar, coconut milk, and yeast. Fry until golden brown.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/mandazi.jpg"
-      },
-      {
-        "id": "15",
-        "name": "Chips Masala",
-        "ingredients": ["french fries", "tomato sauce", "onions", "cilantro", "spices"],
-        "instructions": "Cook french fries. Toss with tomato sauce, onions, cilantro, and spices.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/chips_masala.jpg"
-      },
-      {
-        "id": "16",
-        "name": "Swahili Fish Curry",
-        "ingredients": ["fish", "coconut milk", "onions", "tomatoes", "spices"],
-        "instructions": "Cook onions and tomatoes with spices. Add fish and coconut milk. Simmer until fish is cooked.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/swahili_fish_curry.jpg"
-      },
-      {
-        "id": "17",
-        "name": "Smocha",
-        "ingredients": ["smokie sausages", "chapati", "tomatoes", "onions", "coriander", "ketchup"],
-        "instructions": "Grill smokie sausages. Slice tomatoes and onions, and mix with coriander. Place smokie on chapati, top with the tomato-onion mix and ketchup. Roll up and serve.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/smocha.jpg"
-      },
-      {
-        "id": "18",
-        "name": "Pilau",
-        "ingredients": ["rice", "beef", "onions", "garlic", "ginger", "spices"],
-        "instructions": "Cook beef with onions, garlic, ginger, and spices. Add rice and cook until done.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/pilau.jpg"
-      },
-      {
-        "id": "19",
-        "name": "Chapati",
-        "ingredients": ["flour", "water", "oil", "salt"],
-        "instructions": "Mix flour, water, oil, and salt into a dough. Roll out and cook on a hot griddle.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/chapati.jpg"
-      },
-      {
-        "id": "20",
-        "name": "Nyama Choma",
-        "ingredients": ["beef", "salt", "pepper"],
-        "instructions": "Season beef with salt and pepper. Grill until cooked to desired doneness.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/nyama_choma.jpg"
-      },
-      {
-        "id": "21",
-        "name": "Ugali",
-        "ingredients": ["maize flour", "water"],
-        "instructions": "Boil water. Slowly add maize flour while stirring. Cook until thickened.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/ugali.jpg"
-      },
-      {
-        "id": "22",
-        "name": "Matoke",
-        "ingredients": ["plantains", "onions", "tomatoes", "oil", "salt"],
-        "instructions": "Peel and boil plantains. Sauté onions and tomatoes in oil. Mix with plantains and cook until tender.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/matoke.jpg"
-      },
-      {
-        "id": "23",
-        "name": "Lasagna",
-        "ingredients": ["lasagna noodles", "ground beef", "tomato sauce", "ricotta cheese", "mozzarella cheese"],
-        "instructions": "Layer noodles with beef, tomato sauce, ricotta, and mozzarella. Bake until bubbly.",
-        "cuisine": "Italian",
-        "image": "https://example.com/images/lasagna.jpg"
-      },
-      {
-        "id": "24",
-        "name": "Tortilla Española",
-        "ingredients": ["potatoes", "eggs", "onions", "olive oil"],
-        "instructions": "Cook potatoes and onions in oil. Beat eggs and pour over. Cook until set.",
-        "cuisine": "Spanish",
-        "image": "https://example.com/images/tortilla_espanola.jpg"
-      },
-      {
-        "id": "25",
-        "name": "Ratatouille",
-        "ingredients": ["zucchini", "eggplant", "bell peppers", "tomatoes", "onions"],
-        "instructions": "Sauté onions and bell peppers. Add zucchini, eggplant, and tomatoes. Simmer until tender.",
-        "cuisine": "French",
-        "image": "https://example.com/images/ratatouille.jpg"
-      },
-      {
-        "id": "26",
-        "name": "Kachumbari",
-        "ingredients": ["tomatoes", "onions", "cilantro", "lemon juice", "salt"],
-        "instructions": "Mix diced tomatoes, onions, and cilantro. Toss with lemon juice and salt.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/kachumbari.jpg"
-      },
-      {
-        "id": "27",
-        "name": "Fish Fry",
-        "ingredients": ["fish", "oil", "lemon", "salt", "spices"],
-        "instructions": "Marinate fish with lemon, salt, and spices. Fry in hot oil until crispy.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/fish_fry.jpg"
-      },
-      {
-        "id": "28",
-        "name": "Kuku Choma",
-        "ingredients": ["chicken", "lemon", "spices", "oil"],
-        "instructions": "Marinate chicken with lemon, spices, and oil. Grill until cooked through.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/kuku_choma.jpg"
-      },
-      {
-        "id": "29",
-        "name": "Mahamri",
-        "ingredients": ["flour", "coconut milk", "sugar", "yeast", "cardamom"],
-        "instructions": "Make dough from flour, coconut milk, sugar, yeast, and cardamom. Fry until golden brown.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/mahamri.jpg"
-      },
-      {
-        "id": "30",
-        "name": "Kaimati",
-        "ingredients": ["flour", "sugar", "yeast", "cardamom", "oil"],
-        "instructions": "Make dough from flour, sugar, yeast, and cardamom. Fry in hot oil until golden. Coat with syrup.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/kaimati.jpg"
-      },
-      {
-        "id": "31",
-        "name": "Mishkaki",
-        "ingredients": ["beef", "spices", "oil", "lemon"],
-        "instructions": "Marinate beef with spices, oil, and lemon. Skewer and grill until cooked through.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/mishkaki.jpg"
-      },
-      {
-        "id": "32",
-        "name": "Mokimo",
-        "ingredients": ["potatoes", "corn", "peas", "pumpkin leaves"],
-        "instructions": "Boil potatoes, corn, peas, and pumpkin leaves. Mash together until smooth.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/mokimo.jpg"
-      },
-      {
-        "id": "33",
-        "name": "Githeri",
-        "ingredients": ["corn", "beans", "onions", "tomatoes", "spices"],
-        "instructions": "Boil corn and beans until tender. Sauté with onions, tomatoes, and spices.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/githeri.jpg"
-      },
-      {
-        "id": "34",
-        "name": "Sukuma Wiki",
-        "ingredients": ["kale", "onions", "tomatoes", "oil", "salt"],
-        "instructions": "Sauté onions and tomatoes in oil. Add chopped kale and cook until tender. Season with salt.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/sukuma_wiki.jpg"
-      },
-      {
-        "id": "35",
-        "name": "Irio",
-        "ingredients": ["potatoes", "peas", "corn", "pumpkin leaves"],
-        "instructions": "Boil potatoes, peas, corn, and pumpkin leaves. Mash together until smooth.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/irio.jpg"
-      },
-      {
-        "id": "36",
-        "name": "Mbaazi za Nazi",
-        "ingredients": ["pigeon peas", "coconut milk", "onions", "tomatoes", "spices"],
-        "instructions": "Cook pigeon peas with onions, tomatoes, and spices. Add coconut milk and simmer until tender.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/mbaazi_za_nazi.jpg"
-      },
-      {
-        "id": "37",
-        "name": "Omena",
-        "ingredients": ["omena fish", "onions", "tomatoes", "oil", "salt"],
-        "instructions": "Fry omena fish in oil until crispy. Sauté onions and tomatoes, then mix with omena.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/omena.jpg"
-      },
-      {
-        "id": "38",
-        "name": "Kunde",
-        "ingredients": ["cowpeas", "coconut milk", "onions", "tomatoes", "spices"],
-        "instructions": "Cook cowpeas with onions, tomatoes, and spices. Add coconut milk and simmer until tender.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/kunde.jpg"
-      },
-      {
-        "id": "39",
-        "name": "Mũthokoi",
-        "ingredients": ["maize", "beans", "pumpkin leaves", "onions"],
-        "instructions": "Boil maize and beans until tender. Sauté with onions and pumpkin leaves.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/muthokoi.jpg"
-      },
-      {
-        "id": "40",
-        "name": "Sauté Potatoes",
-        "ingredients": ["potatoes", "onions", "butter", "herbs"],
-        "instructions": "Boil potatoes until tender. Sauté onions in butter, add potatoes and herbs. Cook until golden brown.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/saute_potatoes.jpg"
-      },
-      {
-        "id": "41",
-        "name": "Viazi Karai",
-        "ingredients": ["potatoes", "flour", "spices", "oil"],
-        "instructions": "Boil potatoes and cut into pieces. Coat with spiced flour and deep fry until golden.",
-        "cuisine": "Kenyan",
-        "image": "https://example.com/images/viazi_karai.jpg"
-      }
-    ]
-  }
-  
+  "meals": [
+    {
+      "id": "1",
+      "name": "Sushi",
+      "picture": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8c3VzaGl8ZW58MHx8MHx8fDA%3D",
+      "ingredients": ["rice", "vinegar", "sugar", "salt", "nori", "fish"],
+      "instructions": "Cook rice. Mix vinegar, sugar, and salt. Spread rice on nori. Add fish. Roll and slice.",
+      "cuisine": "Japanese"
+    },
+    {
+      "id": "2",
+      "name": "Pizza Margherita",
+      "picture": "https://images.unsplash.com/photo-1600028068383-ea11a7a101f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emElMjBtYXJnaGVyaXRhfGVufDB8fDB8fHww",
+      "ingredients": [
+        "pizza dough",
+        "tomato sauce",
+        "mozzarella cheese",
+        "basil",
+        "olive oil"
+      ],
+      "instructions": "Spread tomato sauce on dough. Add cheese. Bake. Garnish with basil and drizzle with olive oil.",
+      "cuisine": "Italian"
+    },
+    {
+      "id": "3",
+      "name": "Tacos",
+      "ingredients": ["tortillas", "beef", "onions", "cilantro", "lime"],
+      "instructions": "Cook beef. Warm tortillas. Add beef, onions, cilantro. Serve with lime.",
+      "cuisine": "Mexican",
+      "picture": "https://plus.unsplash.com/premium_photo-1681406995009-36bf99ce02ad?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGl0YWxpYW4lMjB0YWNvc3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "4",
+      "name": "Peking Duck",
+      "ingredients": [
+        "duck",
+        "hoisin sauce",
+        "scallions",
+        "cucumbers",
+        "pancakes"
+      ],
+      "instructions": "Roast duck. Serve with hoisin sauce, scallions, cucumbers, and pancakes.",
+      "cuisine": "Chinese",
+      "picture": ""
+    },
+    {
+      "id": "5",
+      "name": "Pasta Carbonara",
+      "ingredients": [
+        "spaghetti",
+        "eggs",
+        "parmesan cheese",
+        "pancetta",
+        "black pepper"
+      ],
+      "instructions": "Boil spaghetti. Cook pancetta. Mix eggs and cheese. Combine all.",
+      "cuisine": "Italian",
+      "picture": "https://images.unsplash.com/photo-1516100882582-96c3a05fe590?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8UGFzdGElMjBDYXJib25hcmF8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "6",
+      "name": "Pad Thai",
+      "ingredients": [
+        "rice noodles",
+        "shrimp",
+        "tofu",
+        "eggs",
+        "bean sprouts",
+        "peanuts",
+        "lime"
+      ],
+      "instructions": "Cook noodles. Stir-fry shrimp, tofu, and eggs. Add noodles and sauce. Garnish with peanuts and lime.",
+      "cuisine": "Thai",
+      "picture": "https://plus.unsplash.com/premium_photo-1661610605309-77feabcc8772?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cGFkJTIwdGhhaXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "7",
+      "name": "Paella",
+      "ingredients": [
+        "rice",
+        "saffron",
+        "chicken",
+        "seafood",
+        "peas",
+        "bell peppers"
+      ],
+      "instructions": "Cook chicken. Add rice and saffron. Add seafood, peas, and bell peppers. Simmer until done.",
+      "cuisine": "Spanish",
+      "picture": "https://plus.unsplash.com/premium_photo-1694790149322-e8f8957e01c5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHBhZWxsYXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "8",
+      "name": "Burger",
+      "ingredients": [
+        "ground beef",
+        "buns",
+        "cheese",
+        "lettuce",
+        "tomato",
+        "onions",
+        "pickles"
+      ],
+      "instructions": "Form beef into patties. Grill. Serve on buns with cheese, lettuce, tomato, onions, and pickles.",
+      "cuisine": "American",
+      "picture": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YnVyZ2VyfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "9",
+      "name": "Biryani",
+      "ingredients": [
+        "rice",
+        "chicken",
+        "yogurt",
+        "onions",
+        "spices",
+        "saffron"
+      ],
+      "instructions": "Marinate chicken in yogurt and spices. Cook rice with saffron. Layer chicken and rice. Cook until done.",
+      "cuisine": "Indian",
+      "picture": "https://plus.unsplash.com/premium_photo-1694141253763-209b4c8f8ace?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmlyeWFuaXxlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "10",
+      "name": "Croissant",
+      "ingredients": ["flour", "butter", "sugar", "milk", "yeast"],
+      "instructions": "Make dough. Fold with butter multiple times. Shape and bake.",
+      "cuisine": "French",
+      "picture": "https://plus.unsplash.com/premium_photo-1674562179816-04fda3958c12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3JvaXNzYW50fGVufDB8fDB8fHww"
+    },
+    {
+      "id": "11",
+      "name": "Pho",
+      "ingredients": [
+        "rice noodles",
+        "beef",
+        "broth",
+        "bean sprouts",
+        "basil",
+        "lime"
+      ],
+      "instructions": "Cook noodles. Prepare broth. Add beef and noodles to broth. Serve with bean sprouts, basil, and lime.",
+      "cuisine": "Vietnamese",
+      "picture": "https://images.unsplash.com/photo-1590420882553-4f9150b71f92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHBob3xlbnwwfHwwfHx8MA%3D%3D"
+    },
+    {
+      "id": "12",
+      "name": "Samosas",
+      "ingredients": ["flour", "water", "meat", "onions", "spices"],
+      "instructions": "Make dough from flour and water. Fill with cooked meat, onions, and spices. Fry until golden brown.",
+      "cuisine": "Kenyan",
+      "picture": "https://plus.unsplash.com/premium_photo-1695297516676-04a259917c03?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c2Ftb3NhfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "13",
+      "name": "Bhajias",
+      "ingredients": ["potatoes", "chickpea flour", "spices", "water", "oil"],
+      "instructions": "Slice potatoes. Coat in spiced chickpea flour batter. Fry until crispy.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "14",
+      "name": "Mandazi",
+      "ingredients": ["flour", "sugar", "coconut milk", "yeast", "oil"],
+      "instructions": "Make dough from flour, sugar, coconut milk, and yeast. Fry until golden brown.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "15",
+      "name": "Chips Masala",
+      "ingredients": [
+        "french fries",
+        "tomato sauce",
+        "onions",
+        "cilantro",
+        "spices"
+      ],
+      "instructions": "Cook french fries. Toss with tomato sauce, onions, cilantro, and spices.",
+      "cuisine": "Kenyan",
+      "picture": "https://images.unsplash.com/photo-1598679253544-2c97992403ea?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNoaXBzJTIwbWFzbGF8ZW58MHx8MHx8fDA%3D"
+    },
+    {
+      "id": "16",
+      "name": "Swahili Fish Curry",
+      "ingredients": ["fish", "coconut milk", "onions", "tomatoes", "spices"],
+      "instructions": "Cook onions and tomatoes with spices. Add fish and coconut milk. Simmer until fish is cooked.",
+      "cuisine": "Kenyan",
+      "picture": "https://plus.unsplash.com/premium_photo-1693262738284-d5980c79d218?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN3YWhpbGklMjBmaXNoJTIwY29va2VkfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "17",
+      "name": "Smocha",
+      "ingredients": [
+        "smokie sausages",
+        "chapati",
+        "tomatoes",
+        "onions",
+        "coriander",
+        "ketchup"
+      ],
+      "instructions": "Grill smokie sausages. Slice tomatoes and onions, and mix with coriander. Place smokie on chapati, top with the tomato-onion mix and ketchup. Roll up and serve.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "18",
+      "name": "Pilau",
+      "ingredients": ["rice", "beef", "onions", "garlic", "ginger", "spices"],
+      "instructions": "Cook beef with onions, garlic, ginger, and spices. Add rice and cook until done.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "19",
+      "name": "Chapati",
+      "ingredients": ["flour", "water", "oil", "salt"],
+      "instructions": "Mix flour, water, oil, and salt into a dough. Roll out and cook on a hot griddle.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "20",
+      "name": "Nyama Choma",
+      "ingredients": ["beef", "salt", "pepper"],
+      "instructions": "Season beef with salt and pepper. Grill until cooked to desired doneness.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "21",
+      "name": "Ugali",
+      "ingredients": ["maize flour", "water"],
+      "instructions": "Boil water. Slowly add maize flour while stirring. Cook until thickened.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "22",
+      "name": "Matoke",
+      "ingredients": ["plantains", "onions", "tomatoes", "oil", "salt"],
+      "instructions": "Peel and boil plantains. Sauté onions and tomatoes in oil. Mix with plantains and cook until tender.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "23",
+      "name": "Lasagna",
+      "ingredients": [
+        "lasagna noodles",
+        "ground beef",
+        "tomato sauce",
+        "ricotta cheese",
+        "mozzarella cheese"
+      ],
+      "instructions": "Layer noodles with beef, tomato sauce, ricotta, and mozzarella. Bake until bubbly.",
+      "cuisine": "Italian",
+      "picture": ""
+    },
+    {
+      "id": "24",
+      "name": "Tortilla Española",
+      "ingredients": ["potatoes", "eggs", "onions", "olive oil"],
+      "instructions": "Cook potatoes and onions in oil. Beat eggs and pour over. Cook until set.",
+      "cuisine": "Spanish",
+      "picture": ""
+    },
+    {
+      "id": "25",
+      "name": "Ratatouille",
+      "ingredients": [
+        "zucchini",
+        "eggplant",
+        "bell peppers",
+        "tomatoes",
+        "onions"
+      ],
+      "instructions": "Sauté onions and bell peppers. Add zucchini, eggplant, and tomatoes. Simmer until tender.",
+      "cuisine": "French",
+      "picture": ""
+    },
+    {
+      "id": "26",
+      "name": "Kachumbari",
+      "ingredients": ["tomatoes", "onions", "cilantro", "lemon juice", "salt"],
+      "instructions": "Mix diced tomatoes, onions, and cilantro. Toss with lemon juice and salt.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "27",
+      "name": "Fish Fry",
+      "ingredients": ["fish", "oil", "lemon", "salt", "spices"],
+      "instructions": "Marinate fish with lemon, salt, and spices. Fry in hot oil until crispy.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "28",
+      "name": "Kuku Choma",
+      "ingredients": ["chicken", "lemon", "spices", "oil"],
+      "instructions": "Marinate chicken with lemon, spices, and oil. Grill until cooked through.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "29",
+      "name": "Mahamri",
+      "ingredients": ["flour", "coconut milk", "sugar", "yeast", "cardamom"],
+      "instructions": "Make dough from flour, coconut milk, sugar, yeast, and cardamom. Fry until golden brown.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "30",
+      "name": "Kaimati",
+      "ingredients": ["flour", "sugar", "yeast", "cardamom", "oil"],
+      "instructions": "Make dough from flour, sugar, yeast, and cardamom. Fry in hot oil until golden. Coat with syrup.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "31",
+      "name": "Mishkaki",
+      "ingredients": ["beef", "spices", "oil", "lemon"],
+      "instructions": "Marinate beef with spices, oil, and lemon. Skewer and grill until cooked through.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "32",
+      "name": "Mokimo",
+      "ingredients": ["potatoes", "corn", "peas", "pumpkin leaves"],
+      "instructions": "Boil potatoes, corn, peas, and pumpkin leaves. Mash together until smooth.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "33",
+      "name": "Githeri",
+      "ingredients": ["corn", "beans", "onions", "tomatoes", "spices"],
+      "instructions": "Boil corn and beans until tender. Sauté with onions, tomatoes, and spices.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "34",
+      "name": "Sukuma Wiki",
+      "ingredients": ["kale", "onions", "tomatoes", "oil", "salt"],
+      "instructions": "Sauté onions and tomatoes in oil. Add chopped kale and cook until tender. Season with salt.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "35",
+      "name": "Irio",
+      "ingredients": ["potatoes", "peas", "corn", "pumpkin leaves"],
+      "instructions": "Boil potatoes, peas, corn, and pumpkin leaves. Mash together until smooth.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "36",
+      "name": "Mbaazi za Nazi",
+      "ingredients": [
+        "pigeon peas",
+        "coconut milk",
+        "onions",
+        "tomatoes",
+        "spices"
+      ],
+      "instructions": "Cook pigeon peas with onions, tomatoes, and spices. Add coconut milk and simmer until tender.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "37",
+      "name": "Omena",
+      "ingredients": ["omena fish", "onions", "tomatoes", "oil", "salt"],
+      "instructions": "Fry omena fish in oil until crispy. Sauté onions and tomatoes, then mix with omena.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "38",
+      "name": "Kunde",
+      "ingredients": [
+        "cowpeas",
+        "coconut milk",
+        "onions",
+        "tomatoes",
+        "spices"
+      ],
+      "instructions": "Cook cowpeas with onions, tomatoes, and spices. Add coconut milk and simmer until tender.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "39",
+      "name": "Mũthokoi",
+      "ingredients": ["maize", "beans", "pumpkin leaves", "onions"],
+      "instructions": "Boil maize and beans until tender. Sauté with onions and pumpkin leaves.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "40",
+      "name": "Sauté Potatoes",
+      "ingredients": ["potatoes", "onions", "butter", "herbs"],
+      "instructions": "Boil potatoes until tender. Sauté onions in butter, add potatoes and herbs. Cook until golden brown.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    },
+    {
+      "id": "41",
+      "name": "Viazi Karai",
+      "ingredients": ["potatoes", "flour", "spices", "oil"],
+      "instructions": "Boil potatoes and cut into pieces. Coat with spiced flour and deep fry until golden.",
+      "cuisine": "Kenyan",
+      "picture": ""
+    }
+  ]
+}

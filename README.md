@@ -37,4 +37,4 @@ The application fetches data from a given API endpoint using the `fetch` functio
 This project is licensed under the MIT License.
 
 ## Live Link
-http://127.0.0.1:5500/Index.html
+https://recipe-generator-neon.vercel.app/
