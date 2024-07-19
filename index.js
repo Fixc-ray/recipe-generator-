@@ -1,18 +1,18 @@
-const food = "http://localhost:3000/meals";
+const food = "https://backend-recipe-brown.vercel.app/meals";
 
 fetch(food)
   .then((res) => res.json())
-  .then((meals) => (users = meals.map((meal) => displayMeal(meal))));
+  .then((meals) => (foodName = meals.map((meal) => displayMeal(meal))));
 
 const searchBox = document.querySelector("[data-search");
 const storeitems = document.getElementById("result");
 const product = document.querySelectorAll(".meal");
 const pname = storeitems.getElementsByTagName("h2");
 
-let users = [];
+let foodName = [];
 searchBox.addEventListener("input", (e) => {
   const value = e.target.value.toUpperCase();
-  users.forEach((user) =>{
+  foodName.forEach((user) =>{
     const isVisible = user.name.toUpperCase().includes(value)
     user.divCard.classList.toggle('hide', !isVisible)
   })
